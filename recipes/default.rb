@@ -11,6 +11,13 @@ node.default['haproxy']['members'] = [
   "ipaddress" => "192.168.10.43",
   "port" => 80,
   "ssl_port" => 80
-}]
+},
+{
+  "hostname" => "web2",
+  "ipaddress" => "192.168.10.44",
+  "port" => 80,
+  "ssl_port" => 80
+}
+]
 
 include_recipe "haproxy::manual"
