@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures datanext-haproxy'
 long_description 'Installs/Configures datanext-haproxy'
-version '1.0.0'
+version '1.1.1'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 depends 'haproxy', '= 3.0.4'
